@@ -11,14 +11,7 @@ import json
 import time
 import urllib3
 #url = "https://www.facebook.com/wannaoneS2/posts/966366690184140"
-#url = "https://www.facebook.com/ongseongwoopage/posts/853885714782880"
-#url = "https://www.facebook.com/ongseongwoopage/posts/816510298520422"
-#url = "https://www.facebook.com/wannaoneS2/posts/996444753843000"
-#url = "https://www.facebook.com/groups/codingeverybody/permalink/1858395980867596/"
-#url = "https://www.facebook.com/ggsing/posts/1258041760967268"
 
-#url = "https://m.facebook.com/story.php?story_fbid=1560629660670688&id=270935242973476"
-#url = "https://m.facebook.com/YooAhInpage/photos/a.953902188001290.1073741828.953899924668183/1625089527549216/?type=3&source=48"
 app_id = "..."
 app_secret ="..."
 access_token = app_id + "|" + app_secret
