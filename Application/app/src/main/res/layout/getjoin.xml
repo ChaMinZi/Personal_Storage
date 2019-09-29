@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center|top">
+
+        <EditText
+            android:id="@+id/nameEText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="45dp"
+            android:gravity="center"
+            android:hint="이름 입력"
+            android:password="true"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/idEText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="아이디 입력"
+            android:password="true"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/passwordEText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="비밀번호 입력"
+            android:password="true"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/passwordETextc"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="비밀번호 재확인"
+            android:password="true"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/birthEText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="생년월일 입력(8자리)"
+            android:password="true"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/emailEText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:hint="이메일 입력"
+            android:password="true"
+            android:textSize="20sp" />
+
+</LinearLayout>

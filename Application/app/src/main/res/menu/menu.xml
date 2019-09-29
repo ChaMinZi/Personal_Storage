@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main2Activity">
+
+    <item android:id="@+id/urlicon"
+        android:title="url추가아이콘"
+        android:icon="@drawable/ic_menu_add"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/category"
+        android:orderInCategory="100"
+        android:title="전체"
+        />
+    <item android:id="@+id/category0"
+        android:orderInCategory="100"
+        android:title="미분류"
+        />
+    <item android:id="@+id/category1"
+        android:orderInCategory="100"
+        android:title="배경"
+        />
+    <item android:id="@+id/category2"
+        android:orderInCategory="100"
+        android:title="여행"
+        />
+    <item android:id="@+id/category3"
+        android:orderInCategory="100"
+        android:title="음식"
+        />
+    <item android:id="@+id/category4"
+        android:orderInCategory="100"
+        android:title="운동"
+        />
+    <item android:id="@+id/category5"
+        android:orderInCategory="100"
+        android:title="취미"
+        />
+</menu>
