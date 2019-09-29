@@ -19,10 +19,10 @@ import urllib3
 
 url = sys.argv[1]
 
-app_id = "126860411384620"
-app_secret ="ed868a202489e08e2ad0d010b31dfd20"
+app_id = "..."
+app_secret ="..."
 access_token = app_id + "|" + app_secret
-page_id = "899513713536105"
+page_id = "..."
 
 def unescape(s):
 	s = s.replace("&lt;", "<")
